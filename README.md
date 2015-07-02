@@ -14,6 +14,7 @@ Read and write simple POD structs to binary files
       int b;
    };
    
+   File file( "new_file.bin", true, true );
    file.set_read_position(0);
    auto my_pack = file.read_buffer<Pack>()
 ~~~
