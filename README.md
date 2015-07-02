@@ -5,9 +5,9 @@ Read and write simple POD structs to binary files
 
 
 ~~~ c
-   Example:
-   struct must be composed of pod types
-   such that sizeof() gives the proper size to load
+   /// Example:
+   /// struct must be composed of pod types
+   /// such that sizeof() gives the proper size to load
    struct Pack
    {
       int a;
